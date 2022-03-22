@@ -28,12 +28,12 @@ highlight_code = true
 author = "BareDoodah"
 
 after_dark_menu = [
-    { url = "$BASE_URL", name = "Home" },
-    { url = "https://discord.gg/pEq9KWuk3A", name = "Discord" },
-    { url = "https://www.twitch.tv/baredoodah", name = "Twitch" },
-    { url = "$BASE_URL/categories", name = "Categories" },
-    { url = "$BASE_URL/tags", name = "Tags" },
-    { url = "$BASE_URL/atom.xml", name = "RSS" },
+    { url = "$BASE_URL", name = "Home", target = "" },
+    { url = "https://discord.gg/pEq9KWuk3A", name = "Discord", target = "_blank" },
+    { url = "https://www.twitch.tv/baredoodah", name = "Twitch", target = "_blank" },
+    { url = "$BASE_URL/categories", name = "Categories", target = "" },
+    { url = "$BASE_URL/tags", name = "Tags", target = "" },
+    { url = "$BASE_URL/atom.xml", name = "RSS", target = "" },
 ]
 
 after_dark_title = "BareDoodah's Bloggity Blog"
