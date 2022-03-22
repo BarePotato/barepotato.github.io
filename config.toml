@@ -2,6 +2,7 @@
 base_url = "https://bare.doodah.us"
 
 title = "BareDoodah's Bloggity Blog"
+description = ""
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -28,6 +29,8 @@ author = "BareDoodah"
 
 after_dark_menu = [
     { url = "$BASE_URL", name = "Home" },
+    { url = "https://discord.gg/pEq9KWuk3A", name = "Discord" },
+    { url = "https://www.twitch.tv/baredoodah", name = "Twitch" },
     { url = "$BASE_URL/categories", name = "Categories" },
     { url = "$BASE_URL/tags", name = "Tags" },
     { url = "$BASE_URL/atom.xml", name = "RSS" },
