@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://bare.doodah.us/</loc>
+    </url>
+    <url>
+        <loc>https://bare.doodah.us/another/</loc>
+        <lastmod>2017-09-25</lastmod>
+    </url>
+    <url>
+        <loc>https://bare.doodah.us/categories/</loc>
+    </url>
+    <url>
+        <loc>https://bare.doodah.us/categories/hello-world/</loc>
+    </url>
+    <url>
+        <loc>https://bare.doodah.us/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://bare.doodah.us/some-article/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+    <url>
+        <loc>https://bare.doodah.us/tags/</loc>
+    </url>
+    <url>
+        <loc>https://bare.doodah.us/tags/other/</loc>
+    </url>
+    <url>
+        <loc>https://bare.doodah.us/tags/rust/</loc>
+    </url>
+    <url>
+        <loc>https://bare.doodah.us/tags/ssg/</loc>
+    </url>
+</urlset>
