@@ -1,12 +1,12 @@
 +++
-title = "What is Gutenberg"
-date = 2017-09-24
+title = "Website hosting with Github Pages/Actions and Zola"
+date = 2022-03-24
 
 [taxonomies]
 categories = ["Hello world"]
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est. Aliquam tellus felis, suscipit vitae ex vel, fringilla tempus massa. Nulla facilisi. Pellentesque lobortis consequat lectus. Maecenas ac libero elit.
+If you are anything like me, you have from time to time wanted to host a website somewhere for various reasons. The problem I have ran in to time and time again is, it's expensive, even more so when you aren't full sure or set on what you want to do with it. So today I bring you a solution you may not be familiar with, and some instructions on how to get it all set up. It's a lot simpler than you might think, too.
 <!-- more -->
 Ut luctus dolor ut tortor hendrerit, sed hendrerit augue scelerisque. Suspendisse quis sodales dui, at tempus ante. Nulla at tempor metus. Aliquam vitae rutrum diam. Curabitur iaculis massa dui, quis varius nulla finibus a. Praesent eu blandit justo. Suspendisse pharetra, arcu in rhoncus rutrum, magna magna viverra erat, eget vestibulum enim tellus id dui. Nunc vel dui et arcu posuere maximus. Mauris quam quam, bibendum sed libero nec, tempus hendrerit arcu. Suspendisse sed gravida orci. Fusce tempor arcu ac est pretium porttitor. Aenean consequat risus venenatis sem aliquam, at sollicitudin nulla semper. Aenean bibendum cursus hendrerit. Nulla congue urna nec finibus bibendum. Donec porta tincidunt ligula non ultricies.
 
