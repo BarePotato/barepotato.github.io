@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>BareDoodah&#x27;s Bloggity Blog</title>
+	<link href="https://bare.doodah.us/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://bare.doodah.us"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-03-24T00:00:00+00:00</updated>
+	<id>https://bare.doodah.us/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Website hosting with Github Pages and Zola</title>
+		<published>2022-03-24T00:00:00+00:00</published>
+		<updated>2022-03-24T00:00:00+00:00</updated>
+		<link href="https://bare.doodah.us/github-pages-hosting/" type="text/html"/>
+		<id>https://bare.doodah.us/github-pages-hosting/</id>
+		<content type="html">&lt;p&gt;If you are anything like me, you have from time to time wanted to host a website somewhere for various reasons. The problem I have ran in to time and time again is, it&#x27;s expensive, even more so when you aren&#x27;t fully sure on what you want to do with it. So today I bring you a solution for low&#x2F;no cost website hosting you may not be familiar with, and some instructions on how to get it all set up.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;While the method described here is built around Zola as the static website generator, it is worth noting that Github does offer Jekyll built in, and this can also work with most(common) generators as well. You will need to modify the Github Action to match.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;first-steps&quot;&gt;First steps&lt;&#x2F;h4&gt;
+&lt;p&gt;The first thing you will need, if you have not set one up yet, is an account on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;&quot;&gt;Github&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Once you have your account created, you should be staring at your landing page, from here we can go ahead and start setting up our repo for hosting. What we need to do now is create a repository, if you account is brand new there will be a large button that says this on the left, if this is not, there will be a button near the top left that simply says &amp;quot;new&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;i.imgur.com&#x2F;Oz3fYJa.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;i.imgur.com&#x2F;nag5vbJ.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Next you will be presented with&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;repo for pages&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;clone locally&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;publishing-with-zola&quot;&gt;Publishing with Zola&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;zola init&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;.gitignore&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;local vs remote generation&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;generating-with-github-actions&quot;&gt;Generating with Github Actions&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;secret token&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;environment var&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;creating action&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;the-right-branch&quot;&gt;The right branch&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;the public branch&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;your-own-domain&quot;&gt;Your own domain&lt;&#x2F;h4&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A first theme for Gutenberg</title>
+		<published>2017-09-25T00:00:00+00:00</published>
+		<updated>2017-09-25T00:00:00+00:00</updated>
+		<link href="https://bare.doodah.us/another/" type="text/html"/>
+		<id>https://bare.doodah.us/another/</id>
+		<content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est. Aliquam tellus felis, suscipit vitae ex vel, fringilla tempus massa. Nulla facilisi. Pellentesque lobortis consequat lectus. Maecenas ac libero elit.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Ut luctus dolor ut tortor hendrerit, sed hendrerit augue scelerisque. Suspendisse quis sodales dui, at tempus ante. Nulla at tempor metus. Aliquam vitae rutrum diam. Curabitur iaculis massa dui, quis varius nulla finibus a. Praesent eu blandit justo. Suspendisse pharetra, arcu in rhoncus rutrum, magna magna viverra erat, eget vestibulum enim tellus id dui. Nunc vel dui et arcu posuere maximus. Mauris quam quam, bibendum sed libero nec, tempus hendrerit arcu. Suspendisse sed gravida orci. Fusce tempor arcu ac est pretium porttitor. Aenean consequat risus venenatis sem aliquam, at sollicitudin nulla semper. Aenean bibendum cursus hendrerit. Nulla congue urna nec finibus bibendum. Donec porta tincidunt ligula non ultricies.&lt;&#x2F;p&gt;
+&lt;p&gt;Sed vulputate tristique elit, eget pharetra elit sodales sed. Proin dignissim ipsum lorem, at porta eros malesuada sed. Proin tristique eros eu quam ornare, suscipit luctus mauris lobortis. Phasellus ut placerat enim. Donec egestas faucibus maximus. Nam quis efficitur eros. Cras tincidunt, lacus ac pretium porta, dui dolor varius elit, eget laoreet justo justo vitae metus. Morbi eget nisi ut ex scelerisque lobortis ut in lorem. Vestibulum et lorem quis ipsum feugiat varius. Mauris nec nulla viverra nisi porttitor efficitur. Morbi vel purus eleifend, finibus erat non, placerat ipsum. Mauris et augue vel nisi volutpat aliquam. Curabitur malesuada tortor est, at condimentum neque eleifend in.&lt;&#x2F;p&gt;
+&lt;p&gt;Morbi id ornare lacus. Suspendisse ultrices rutrum posuere. Nullam porttitor libero quis ligula finibus semper. Mauris iaculis magna et nisl tristique, eget maximus ex feugiat. Nam eu felis leo. Quisque ultrices varius purus in molestie. Duis non accumsan ligula. Vivamus dignissim malesuada metus, vel hendrerit tellus viverra id. Curabitur posuere, mauris vitae dignissim dictum, velit mi condimentum lorem, nec varius velit arcu a mi. In dolor sapien, condimentum sed aliquam at, dignissim id purus. Cras lorem leo, vulputate ac ante sed, molestie tempus lectus. Curabitur efficitur libero quam, rhoncus faucibus libero pharetra nec. Curabitur lobortis ullamcorper nisl eu imperdiet. Duis porttitor interdum magna, ac eleifend orci consequat vitae. Aliquam augue felis, faucibus vel blandit sed, maximus non turpis.&lt;&#x2F;p&gt;
+&lt;p&gt;Quisque viverra a eros id auctor. Proin id nibh ut nisl dignissim pellentesque et ac mi. Nullam mattis urna quis consequat bibendum. Donec pretium dui elit, a semper purus tristique et. Mauris euismod nisl eu vehicula facilisis. Maecenas facilisis non massa non scelerisque. Integer malesuada cursus erat eu viverra. Duis ligula mi, eleifend vel justo id, laoreet porttitor ex. Etiam ultricies lacus lorem, sed aliquam nulla blandit in. Maecenas vel facilisis neque, vitae fringilla eros. In justo nibh, pellentesque sed faucibus nec, varius sit amet risus.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Boogers are our friends</title>
+		<published>2017-09-25T00:00:00+00:00</published>
+		<updated>2017-09-25T00:00:00+00:00</updated>
+		<link href="https://bare.doodah.us/forexrun/" type="text/html"/>
+		<id>https://bare.doodah.us/forexrun/</id>
+		<content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est. Aliquam tellus felis, suscipit vitae ex vel, fringilla tempus massa. Nulla facilisi. Pellentesque lobortis consequat lectus. Maecenas ac libero elit.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Ut luctus dolor ut tortor hendrerit, sed hendrerit augue scelerisque. Suspendisse quis sodales dui, at tempus ante. Nulla at tempor metus. Aliquam vitae rutrum diam. Curabitur iaculis massa dui, quis varius nulla finibus a. Praesent eu blandit justo. Suspendisse pharetra, arcu in rhoncus rutrum, magna magna viverra erat, eget vestibulum enim tellus id dui. Nunc vel dui et arcu posuere maximus. Mauris quam quam, bibendum sed libero nec, tempus hendrerit arcu. Suspendisse sed gravida orci. Fusce tempor arcu ac est pretium porttitor. Aenean consequat risus venenatis sem aliquam, at sollicitudin nulla semper. Aenean bibendum cursus hendrerit. Nulla congue urna nec finibus bibendum. Donec porta tincidunt ligula non ultricies.&lt;&#x2F;p&gt;
+&lt;p&gt;Sed vulputate tristique elit, eget pharetra elit sodales sed. Proin dignissim ipsum lorem, at porta eros malesuada sed. Proin tristique eros eu quam ornare, suscipit luctus mauris lobortis. Phasellus ut placerat enim. Donec egestas faucibus maximus. Nam quis efficitur eros. Cras tincidunt, lacus ac pretium porta, dui dolor varius elit, eget laoreet justo justo vitae metus. Morbi eget nisi ut ex scelerisque lobortis ut in lorem. Vestibulum et lorem quis ipsum feugiat varius. Mauris nec nulla viverra nisi porttitor efficitur. Morbi vel purus eleifend, finibus erat non, placerat ipsum. Mauris et augue vel nisi volutpat aliquam. Curabitur malesuada tortor est, at condimentum neque eleifend in.&lt;&#x2F;p&gt;
+&lt;p&gt;Morbi id ornare lacus. Suspendisse ultrices rutrum posuere. Nullam porttitor libero quis ligula finibus semper. Mauris iaculis magna et nisl tristique, eget maximus ex feugiat. Nam eu felis leo. Quisque ultrices varius purus in molestie. Duis non accumsan ligula. Vivamus dignissim malesuada metus, vel hendrerit tellus viverra id. Curabitur posuere, mauris vitae dignissim dictum, velit mi condimentum lorem, nec varius velit arcu a mi. In dolor sapien, condimentum sed aliquam at, dignissim id purus. Cras lorem leo, vulputate ac ante sed, molestie tempus lectus. Curabitur efficitur libero quam, rhoncus faucibus libero pharetra nec. Curabitur lobortis ullamcorper nisl eu imperdiet. Duis porttitor interdum magna, ac eleifend orci consequat vitae. Aliquam augue felis, faucibus vel blandit sed, maximus non turpis.&lt;&#x2F;p&gt;
+&lt;p&gt;Quisque viverra a eros id auctor. Proin id nibh ut nisl dignissim pellentesque et ac mi. Nullam mattis urna quis consequat bibendum. Donec pretium dui elit, a semper purus tristique et. Mauris euismod nisl eu vehicula facilisis. Maecenas facilisis non massa non scelerisque. Integer malesuada cursus erat eu viverra. Duis ligula mi, eleifend vel justo id, laoreet porttitor ex. Etiam ultricies lacus lorem, sed aliquam nulla blandit in. Maecenas vel facilisis neque, vitae fringilla eros. In justo nibh, pellentesque sed faucibus nec, varius sit amet risus.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

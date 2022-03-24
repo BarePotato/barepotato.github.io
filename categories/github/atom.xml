@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>BareDoodah&#x27;s Bloggity Blog - Github</title>
+	<link href="https://bare.doodah.us/categories/github/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://bare.doodah.us"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-03-24T00:00:00+00:00</updated>
+	<id>https://bare.doodah.us/categories/github/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Website hosting with Github Pages and Zola</title>
+		<published>2022-03-24T00:00:00+00:00</published>
+		<updated>2022-03-24T00:00:00+00:00</updated>
+		<link href="https://bare.doodah.us/github-pages-hosting/" type="text/html"/>
+		<id>https://bare.doodah.us/github-pages-hosting/</id>
+		<content type="html">&lt;p&gt;If you are anything like me, you have from time to time wanted to host a website somewhere for various reasons. The problem I have ran in to time and time again is, it&#x27;s expensive, even more so when you aren&#x27;t fully sure on what you want to do with it. So today I bring you a solution for low&#x2F;no cost website hosting you may not be familiar with, and some instructions on how to get it all set up.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;While the method described here is built around Zola as the static website generator, it is worth noting that Github does offer Jekyll built in, and this can also work with most(common) generators as well. You will need to modify the Github Action to match.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;first-steps&quot;&gt;First steps&lt;&#x2F;h4&gt;
+&lt;p&gt;The first thing you will need, if you have not set one up yet, is an account on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;&quot;&gt;Github&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Once you have your account created, you should be staring at your landing page, from here we can go ahead and start setting up our repo for hosting. What we need to do now is create a repository, if you account is brand new there will be a large button that says this on the left, if this is not, there will be a button near the top left that simply says &amp;quot;new&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;i.imgur.com&#x2F;Oz3fYJa.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;i.imgur.com&#x2F;nag5vbJ.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Next you will be presented with&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;repo for pages&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;clone locally&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;publishing-with-zola&quot;&gt;Publishing with Zola&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;zola init&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;.gitignore&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;local vs remote generation&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;generating-with-github-actions&quot;&gt;Generating with Github Actions&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;secret token&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;environment var&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;creating action&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;the-right-branch&quot;&gt;The right branch&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;the public branch&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;your-own-domain&quot;&gt;Your own domain&lt;&#x2F;h4&gt;
+</content>
+	</entry>
+</feed>
