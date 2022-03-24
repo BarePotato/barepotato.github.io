@@ -10,7 +10,8 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-theme = "after-dark"
+# theme = "after-dark"
+theme = "Zulma"
 
 generate_feed = true
 taxonomies = [
@@ -27,7 +28,10 @@ highlight_code = true
 # Put all your custom variables here
 author = "BareDoodah"
 
-after_dark_menu = [
+zulma_title = "BareDoodah's Bloggity Blog"
+zulma_theme = "darkly"
+zulma_allow_theme_selection = false
+zulma_menu = [
     { url = "$BASE_URL", name = "Home", target = "" },
     { url = "https://discord.gg/pEq9KWuk3A", name = "Discord", target = "_blank" },
     { url = "https://www.twitch.tv/baredoodah", name = "Twitch", target = "_blank" },
@@ -37,3 +41,11 @@ after_dark_menu = [
 ]
 
 after_dark_title = "BareDoodah's Bloggity Blog"
+after_dark_menu = [
+    { url = "$BASE_URL", name = "Home", target = "" },
+    { url = "https://discord.gg/pEq9KWuk3A", name = "Discord", target = "_blank" },
+    { url = "https://www.twitch.tv/baredoodah", name = "Twitch", target = "_blank" },
+    { url = "$BASE_URL/categories", name = "Categories", target = "" },
+    { url = "$BASE_URL/tags", name = "Tags", target = "" },
+    { url = "$BASE_URL/atom.xml", name = "RSS", target = "" },
+]

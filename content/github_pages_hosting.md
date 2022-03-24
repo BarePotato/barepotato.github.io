@@ -1,18 +1,49 @@
 +++
-title = "Website hosting with Github Pages/Actions and Zola"
+title = "Website hosting with Github Pages and Zola"
 date = 2022-03-24
 
 [taxonomies]
-categories = ["Hello world"]
+categories = ["Github"]
 +++
 
-If you are anything like me, you have from time to time wanted to host a website somewhere for various reasons. The problem I have ran in to time and time again is, it's expensive, even more so when you aren't full sure or set on what you want to do with it. So today I bring you a solution you may not be familiar with, and some instructions on how to get it all set up. It's a lot simpler than you might think, too.
+If you are anything like me, you have from time to time wanted to host a website somewhere for various reasons. The problem I have ran in to time and time again is, it's expensive, even more so when you aren't fully sure on what you want to do with it. So today I bring you a solution for low/no cost website hosting you may not be familiar with, and some instructions on how to get it all set up.
+
 <!-- more -->
-Ut luctus dolor ut tortor hendrerit, sed hendrerit augue scelerisque. Suspendisse quis sodales dui, at tempus ante. Nulla at tempor metus. Aliquam vitae rutrum diam. Curabitur iaculis massa dui, quis varius nulla finibus a. Praesent eu blandit justo. Suspendisse pharetra, arcu in rhoncus rutrum, magna magna viverra erat, eget vestibulum enim tellus id dui. Nunc vel dui et arcu posuere maximus. Mauris quam quam, bibendum sed libero nec, tempus hendrerit arcu. Suspendisse sed gravida orci. Fusce tempor arcu ac est pretium porttitor. Aenean consequat risus venenatis sem aliquam, at sollicitudin nulla semper. Aenean bibendum cursus hendrerit. Nulla congue urna nec finibus bibendum. Donec porta tincidunt ligula non ultricies.
 
+While the method described here is built around Zola as the static website generator, it is worth noting that Github does offer Jekyll built in, and this can also work with most(common) generators as well. You will need to modify the Github Action to match.
 
-Sed vulputate tristique elit, eget pharetra elit sodales sed. Proin dignissim ipsum lorem, at porta eros malesuada sed. Proin tristique eros eu quam ornare, suscipit luctus mauris lobortis. Phasellus ut placerat enim. Donec egestas faucibus maximus. Nam quis efficitur eros. Cras tincidunt, lacus ac pretium porta, dui dolor varius elit, eget laoreet justo justo vitae metus. Morbi eget nisi ut ex scelerisque lobortis ut in lorem. Vestibulum et lorem quis ipsum feugiat varius. Mauris nec nulla viverra nisi porttitor efficitur. Morbi vel purus eleifend, finibus erat non, placerat ipsum. Mauris et augue vel nisi volutpat aliquam. Curabitur malesuada tortor est, at condimentum neque eleifend in.
+#### First steps
 
-Morbi id ornare lacus. Suspendisse ultrices rutrum posuere. Nullam porttitor libero quis ligula finibus semper. Mauris iaculis magna et nisl tristique, eget maximus ex feugiat. Nam eu felis leo. Quisque ultrices varius purus in molestie. Duis non accumsan ligula. Vivamus dignissim malesuada metus, vel hendrerit tellus viverra id. Curabitur posuere, mauris vitae dignissim dictum, velit mi condimentum lorem, nec varius velit arcu a mi. In dolor sapien, condimentum sed aliquam at, dignissim id purus. Cras lorem leo, vulputate ac ante sed, molestie tempus lectus. Curabitur efficitur libero quam, rhoncus faucibus libero pharetra nec. Curabitur lobortis ullamcorper nisl eu imperdiet. Duis porttitor interdum magna, ac eleifend orci consequat vitae. Aliquam augue felis, faucibus vel blandit sed, maximus non turpis.
+The first thing you will need, if you have not set one up yet, is an account on [Github](https://github.com/).
 
-Quisque viverra a eros id auctor. Proin id nibh ut nisl dignissim pellentesque et ac mi. Nullam mattis urna quis consequat bibendum. Donec pretium dui elit, a semper purus tristique et. Mauris euismod nisl eu vehicula facilisis. Maecenas facilisis non massa non scelerisque. Integer malesuada cursus erat eu viverra. Duis ligula mi, eleifend vel justo id, laoreet porttitor ex. Etiam ultricies lacus lorem, sed aliquam nulla blandit in. Maecenas vel facilisis neque, vitae fringilla eros. In justo nibh, pellentesque sed faucibus nec, varius sit amet risus.
+Once you have your account created, you should be staring at your landing page, from here we can go ahead and start setting up our repo for hosting. What we need to do now is create a repository, if you account is brand new there will be a large button that says this on the left, if this is not, there will be a button near the top left that simply says "new".
+
+![](https://i.imgur.com/Oz3fYJa.png)![](https://i.imgur.com/nag5vbJ.png)
+
+Next you will be presented with
+
+- repo for pages
+
+- clone locally
+
+#### Publishing with Zola
+
+- zola init
+
+- .gitignore
+
+- local vs remote generation
+
+#### Generating with Github Actions
+
+- secret token
+
+- environment var
+
+- creating action
+
+#### The right branch
+
+- the public branch
+
+#### Your own domain
